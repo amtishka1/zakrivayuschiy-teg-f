@@ -1,1 +1,20 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --font-family-main: "Inter";
+  --font-family-accent: "PressStart2P";
+  --font-family-alternative: "sans-serif";
+  --font-weight-normal-wght: 400;
+  --font-weight-bold-wght: 700;
+
+  --bg-light-color: #e7e7e7;
+  --bg-middle-color: #d3d3d3;
+  --bg-dark-color: #1a1a1a;
+
+  --stroke-color: #fff;
+  --main-color: #fff;
+  --accent-color: #000;
+  --contour-color: #000;
+  --animation-fill-color: red;
+  --heart-body-color: red;
+}
