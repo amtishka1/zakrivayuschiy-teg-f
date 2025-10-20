@@ -274,6 +274,7 @@
 .core {
   fill: transparent;
   transition: fill 0.3s ease;
+  transition-delay: 0.03s;
 }
 
 .heart {
@@ -282,11 +283,6 @@
 
 .like-icon:hover .core {
   fill: var(--contour-color);
-  transition-delay: 0.03s;
-}
-
-.like-icon:not(:hover) .core {
-  transition-delay: 0.03s;
 }
 
 .like-icon:hover .main-body {
@@ -296,7 +292,6 @@
 
 .like-icon:active .core {
   fill: var(--animation-fill-color);
-  transition: fill 0.3s 0s ease;
 }
 
 .like-icon:active .main-body {
